@@ -9,3 +9,7 @@ def read_root():
 @app.get("/employees")
 def get_employees(name):
     return {f"Welcome to the company! {name}."}
+
+@app.get("/employees222")
+def get_employees(name):
+    return {f"Welcome to the company! {name}."}
